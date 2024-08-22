@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+    #parent{
+       border:  4px solid red;
+        display:grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px  ;
+      
+        grid-auto-flow: column;
+      /*  grid-auto-rows: 50px; */
+grid-auto-columns: 50px;
+
+      
+    }
+    #parent div:nth-of-type(1){
+        background-color: blue;
+        background-image: url(" https://images.unsplash.com/photo-1723715392939-235a0d0c8ed5?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=michael-pointner-dpzs_TPXDTY-unsplash.jpg");
+    }
+    #parent div:nth-of-type(2){
+        background-color: green;
+        background-image: url( "https://unsplash.com/photos/a-very-large-group-of-stars-in-the-night-sky-KBT5WugC2JI ");
+    }  
+    #parent div:nth-of-type(3){
+        background-color: rosybrown;
+        background-image: url(" https://unsplash.com/photos/a-white-stone-in-a-pile-of-branches-wVcs40p8tps");
+    }  
+    #parent div:nth-of-type(4){
+        background-color: blanchedalmond;
+    }  
+    #parent div:nth-of-type(5){
+        background-color: rebeccapurple;
+    }  
+    #parent div:nth-of-type(6){
+        background-color: bisque;
+    }   #parent div:nth-of-type(7){
+        background-color:orchid;
+    }   #parent div:nth-of-type(8){
+        background-color: red;
+    }  #parent div:nth-of-type(9){
+        background-color: orangered;
+    }#parent div:nth-of-type(10){
+        background-color: black;
+    }#parent div:nth-of-type(11){
+        background-color: yellow;
+    }#parent div:nth-of-type(12){
+        background-color: blue;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+<div>10</div>
+<div>11</div>
+<div>12</div>
+    </div>
+</body>
+</html>
